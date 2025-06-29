@@ -1,3 +1,13 @@
+class Fun {
+    static {
+        System.out.println("Fun class loaded");
+    }
+
+    public static void calculate(double a, double b) {
+        System.out.println("Calculating: " + a + " + " + b);
+    }
+}
+
 public class Main {
     public static double forecastValues(double initialAmount, double growthRate, int years) {
         if(years == 0) {
@@ -12,5 +22,7 @@ public class Main {
 
         double finalAmount = forecastValues(initalAmount, growthRate, years);
         System.out.printf("The future final value after %d years is: %.2f%n", years, finalAmount);
+
+        Fun fun1;
     }
 }
