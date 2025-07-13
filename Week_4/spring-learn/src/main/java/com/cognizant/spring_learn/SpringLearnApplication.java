@@ -37,11 +37,11 @@ public class SpringLearnApplication {
 		SpringApplication.run(SpringLearnApplication.class, args);
 		log.info("Spring Application has started successfully.");
 
-		log.info("Displaying current date in specified format:");
-		displayDate();
+		// log.info("Displaying current date in specified format:");
+		// displayDate();
 
-		log.info("Displaying country information:");
-		displayCountry();
+		// log.info("Displaying country information:");
+		// displayCountry();
 	}
 
 }
